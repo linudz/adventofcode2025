@@ -62,7 +62,7 @@ def fetch_invalid_ids(range_dictionary, part = "part1"):
 
 if __name__ == "__main__":
     
-    input_ranges = read_ranges(puzzle)
+    input_ranges = read_ranges(test)
 
     # Part 1
     invalid_ids_part1 = fetch_invalid_ids(input_ranges, "part1")

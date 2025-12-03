@@ -78,7 +78,7 @@ def read_battery_part2(battery_string, number_of_digits = 12):
         return int("".join([str(x) for x in digits]))
 
 if __name__ == "__main__":
-    with open(puzzle) as handle:
+    with open(test) as handle:
 
         # Import puzzle
         puzzle = handle.read().splitlines()
