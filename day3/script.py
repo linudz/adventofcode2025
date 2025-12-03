@@ -5,7 +5,6 @@
 puzzle = "puzzle.txt"
 test = "test.txt"
 
-
 # Part 1
 
 #  Function read_battery_part1(): reads the battery with part 1 logic (find the two digits with the highest value combined)
